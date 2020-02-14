@@ -6,7 +6,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:background="#FFFFFF"
-	tools:context=".WelcomeSlide">
+	tools:context=".WelcomeActivity">
 
 	<ImageView
 		android:id="@+id/calendar"
@@ -64,6 +64,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="Login"
+        android:onClick="clickLogin"
 		android:textSize="18sp"
 		android:fontFamily="@font/montserrat_light"
 		/>
